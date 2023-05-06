@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/PG-airlines.png";
 import projImg2 from "../assets/img/Videogames-PI.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/SerbyLanding.png";
+import projImg5 from "../assets/img/erthosLanding.png";
+import projImg6 from "../assets/img/daviviendaLanding.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,16 +15,35 @@ export const Projects = () => {
   const projects1 = [  //Project in Page 1
     {
       title: "Airlines E-commerce",
-      description: "Design & Development",
+      description: "Tickets Commerce, Roles & Development",
       imgUrl: projImg1,
       url:"https://pg-airlines.vercel.app/"
     },
     {
       title: "Videogames App",
-      description: "Design & Development",
+      description: "Videogames Info, Design & Development",
       imgUrl: projImg2,
       url: "https://pi-soy-henry-kappa.vercel.app/"
     },
+    {
+      title: "Serby",
+      description: "Commerces, Vehicles & others",
+      imgUrl: projImg4,
+      url: "https://serby-fronted-qa.vercel.app/"
+    },
+    {
+      title: "Erthos",
+      description: "NFTs, Design & Development",
+      imgUrl: projImg5,
+      url: "https://erthos.vercel.app/"
+    },
+    {
+      title: "Davivienda",
+      description: "Bank, Design & Development",
+      imgUrl: projImg6,
+      // url: "https://pi-soy-henry-kappa.vercel.app/"
+    },
+  
 
   ];
 
