@@ -76,12 +76,15 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Hello, my name is Cesar Cottua, Full Stack web developer but
-                    more front-end oriented. I love the web design part, I am a
-                    person eager to learn new technologies, analytical,
-                    collaborative, creative and good team player, I hope you
-                    like my portfolio and if you want to contact me click the
-                    button below.
+                    Greetings, I'm Cesar Cottua, a Full Stack Web Developer with
+                    a strong focus on front-end development. I specialize in web
+                    design, embodying a passion for creating visually appealing
+                    and highly functional user interfaces. Known for my
+                    analytical mindset, collaborative approach, and creativity,
+                    I am dedicated to staying at the forefront of evolving
+                    technologies. I invite you to explore my portfolio, and feel
+                    free to reach out for any inquiries or collaborations by
+                    clicking the button below.
                   </p>
                   <a className={s.link} href="#connect">
                     <button onClick={() => console.log("connect")}>

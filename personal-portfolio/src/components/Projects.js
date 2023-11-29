@@ -51,7 +51,9 @@ export const Projects = () => {
       imgUrl: projImg6,
       // url: "https://pi-soy-henry-kappa.vercel.app/"
     },
+  ];
 
+  const projects2 = [
     {
       title: "Videogames App",
       description: "Videogames Info, Design & Development",
@@ -107,7 +109,11 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>Other projects will appear here soon</p>
+                      <Row>
+                          {projects2.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>Other projects will appear here soon</p>
