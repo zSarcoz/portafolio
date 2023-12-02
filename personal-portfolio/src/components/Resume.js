@@ -1,5 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import pdfEs from "../assets/CV Full Stack Web Developer Cesar.pdf";
+import pdfEn from "../assets/CV Full Stack Web Developer Cesar (ENGLISH).pdf";
 import Button from "react-bootstrap/Button";
 import { IoMdDownload } from "react-icons/io";
 import { useEffect, useState } from "react";
@@ -59,7 +60,7 @@ export const Resume = () => {
                 &nbsp;Descargar CV
               </Button>):(  <Button
                 // class="btnPdf"
-                href={pdfEs}
+                href={pdfEn}
                 target="_blank"
                 style={{
                   maxWidth: "250px",
