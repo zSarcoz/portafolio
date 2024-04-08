@@ -8,6 +8,7 @@ import projImg5 from "../assets/img/erthosLanding.png";
 import projImg6 from "../assets/img/daviviendaLanding.png";
 import projImg7 from "../assets/img/carshu-picture.png";
 import projImg8 from "../assets/img/promptopia-picture.png";
+import projImg9 from "../assets/img/tuestuchef.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -28,6 +29,12 @@ export const Projects = () => {
       url: "https://erthos.vercel.app/",
     },
     {
+      title: "Tuestuchef",
+      description: "Commerces, Chefs & others",
+      imgUrl: projImg9,
+      url: "https://tuestuchef.vercel.app/",
+    },
+    {
       title: "CarsHub",
       description: "Cars & Design",
       imgUrl: projImg7,
@@ -39,12 +46,7 @@ export const Projects = () => {
       imgUrl: projImg8,
       url: "https://promptopia-next-test.vercel.app/",
     },
-    {
-      title: "Serby",
-      description: "Commerces, Vehicles & others",
-      imgUrl: projImg4,
-      url: "https://serby-fronted-qa.vercel.app/",
-    },
+
     {
       title: "Davivienda",
       description: "Bank, Design & Development",
